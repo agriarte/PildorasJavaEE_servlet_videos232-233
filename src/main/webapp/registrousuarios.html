@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- formulario get, datos se adjuntan a la URL. Son visibles -->
+        <h5>formulario con get</h5>
+        <form action="ServletRegistro" method="get">
+            Nombre: <input type="text" name="cNombre">
+            Apelido: <input type="text" name="cApellido">
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <!-- formulario post, datos se envian en el cuerpo de la solicitud HTTP, no son visibles-->
+        <h5>formulario con post</h5>
+        <form action="ServletRegistro" method="post">
+            Nombre: <input type="text" name="cNombre">
+            Apelido: <input type="text" name="cApellido">
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
